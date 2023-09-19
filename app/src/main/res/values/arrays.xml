@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="servers">
+        <item name="HK">@string/hk_server</item>
+        <item name="TH">@string/th_server</item>
+        <item name="SG">@string/sg_server</item>
+        <item name="CN">@string/cn_server</item>
+        <item name="STAGING">@string/staging_server</item>
+        <item name="DEV">@string/dev_server</item>
+        <item name="HK-EP">@string/hk_ep_server</item>
+        <item name="MY">@string/my_server</item>
+    </string-array>
+    <string-array name="condition">
+        <item name="GOOD">GOOD</item>
+        <item name="HOLD">HOLD</item>
+        <item name="DAMAGED">DAMAGED</item>
+    </string-array>
+    <string-array name="relocation_reasons">
+        <item name="Client">GOOD</item>
+    </string-array>
+    <string-array name="inventory_type">
+        <item name="GOOD">@string/sku_barcode</item>
+        <item name="HOLD">@string/location</item>
+    </string-array>
+    <string-array name="put_away_method">
+        <item name="scan_sku">Scan SKU</item>
+        <item name="all">All</item>
+    </string-array>
+    <string-array name="order_query_type">
+        <item name="order_number">@string/order_number</item>
+        <item name="tracking_number">@string/tracking_number</item>
+    </string-array>
+</resources>

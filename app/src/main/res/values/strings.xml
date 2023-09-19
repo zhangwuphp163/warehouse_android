@@ -1,0 +1,251 @@
+<resources>
+
+    <string name="navigation_drawer_open">Open Menu</string>
+    <string name="navigation_drawer_close">Close Menu</string>
+
+    <string name="hk_server">Hong Kong Server</string>
+    <string name="th_server">Thailand Server</string>
+    <string name="sg_server">Singapore Server</string>
+    <string name="cn_server">China Hu Men Server</string>
+    <string name="staging_server">Staging Server</string>
+    <string name="dev_server">Development Server</string>
+    <string name="hk_ep_server">HK EP Server</string>
+    <string name="my_server">Malaysia</string>
+
+    <!-- Login -->
+    <string name="prompt_email">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="action_username_short">Username</string>
+    <string name="error_login_incorrect">Username or Password incorrect</string>
+    <string name="error_missing_parameter">API Parameters missing</string>
+    <string name="error_username_not_exist">Username not exist</string>
+    <string name="error_password_incorrect">Password incorrect</string>
+    <string name="error_invalid_token">Login expired, please login again</string>
+    <string name="account_not_bound_centre">Account not bound centre</string>
+    <string name="msg_connection_error">Server connection error</string>
+    <string name="msg_unknown_error">Unknown error</string>
+
+    <!-- Main -->
+    <string name="action_settings">Setting</string>
+    <string name="nav_logout">Logout</string>
+
+    <!-- Menu -->
+    <string name="inbound_order_list">ASN List</string>
+
+    <string name="message_please_scan_item">Please scan item</string>
+    <string name="message_please_wait">Please wait…</string>
+    <string name="button_continue">Continue</string>
+    <string name="button_submit">Submit</string>
+    <string name="action_input_qty">Enter QTY.</string>
+    <string name="action_input_weight">Enter Weight</string>
+    <string name="action_scan_barcode">Scan Barcode</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_rescan">Rescan</string>
+    <string name="button_confirm">Confirm</string>
+    <string name="button_receiving_complete">Receiving Complete</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_confirm_overcharge">Confirm OverCharge</string>
+    <string name="nav_system_setting">Setting</string>
+    <string name="nav_system_update">System\nUpdate</string>
+    <string name="message_internal_server_error">Internal server error</string>
+    <string name="button_scan">Scan Barcode</string>
+    <string name="message_align_red_line_to_scan">Align red line to scan</string>
+    <string name="action_save">Save</string>
+    <string name="action_add_item">Add Item</string>
+    <string name="message_input_format_error">Input format error</string>
+    <string name="message_please_scan_barcode">Please scan barcode</string>
+    <string name="message_please_add_item">Please add item</string>
+    <string name="action_scan_from_camera">Scan from Camera</string>
+    <string name="message_invalid_barcode">Invalid barcode</string>
+    <string name="message_barcode_scan_success">Scan successful, please add item now</string>
+    <string name="message_please_grant_permission">Please grant Location permission</string>
+    <string name="button_camera">Take Photo</string>
+    <string name="message_please_wait_for_location">Please wait for Location</string>
+    <string name="label_location_gps">High Accuracy</string>
+    <string name="label_location_network">Low Accuracy</string>
+    <string name="label_location_acquiring">Acquiring</string>
+    <string name="label_location_gps_cache">High Accuracy (Cache)</string>
+    <string name="label_location_network_cache">Low Accuracy (Cache)</string>
+    <string name="message_please_take_photo">Please take photo</string>
+    <string name="label_location_failed">Acquisition failed</string>
+    <string name="title_activity_take_photo">Take Photo</string>
+    <string name="title_activity_main">Warehouse Management System</string>
+    <string name="nav_warehouse">Warehouse Management</string>
+    <string name="nav_consolidate">Consolidate</string>
+    <string name="unique_number">Unique Number</string>
+    <string name="bin_number">Bin Number</string>
+    <string name="consolidate_success">%s consolidated successfully</string>
+    <string name="success">Success</string>
+    <string name="error_unique_number_not_exist">Unique Number %s not exist</string>
+    <string name="error_unique_number_already_consolidated">Unique Number %s already consolidated</string>
+    <string name="error_tracking_number_not_exist">Tracking Number %s not exist</string>
+    <string name="error_tracking_number_already_consolidated">Tracking Number %s already consolidated</string>
+    <string name="error_tracking_number_not_consolidated">Tracking Number %s is not consolidated</string>
+    <string name="error_tracking_number_already_outbound">Tracking Number %s already outbound</string>
+    <string name="error_bin_number_not_exist">Bin %s not exist</string>
+    <string name="error_bin_number_not_empty">Bin %s not empty</string>
+    <string name="error_bin_number_occupied">Bin %s is occupied by other parcels</string>
+    <string name="nav_customer_return">Inbound: Customer Return</string>
+    <string name="nav_failed_delivery">Inbound: Failed Delivery</string>
+    <string name="tracking_number">Tracking Number</string>
+    <string name="error_user_no_centre_id">User do not have centre_id set</string>
+    <string name="app_name">WMS</string>
+    <string name="nav_offshelf_outbound">Outbound: Off-shelf Scan</string>
+    <string name="nav_dispose_outbound">Outbound: Dispose Scan</string>
+    <string name="nav_return_seller_outbound">Outbound: Return Seller Scan</string>
+    <string name="return_seller_scan_success">%s Return Seller Scan Success</string>
+    <string name="dispose_scan_success">%s Dispose Scan Success</string>
+    <string name="offshelf_scan_success">%s Off-Shelf Scan Success</string>
+    <string name="error_tracking_number_no_belongs_to_bin">%s do not belong to this bin</string>
+    <string name="nav_inbound">Inbound</string>
+    <string name="nav_inbound_by_sn">Inbound By S/N</string>
+    <string name="nav_dispose">Dispose Scan</string>
+    <string name="asn_number">ASN Number</string>
+    <string name="po_number">PO Number</string>
+    <string name="location">Location</string>
+    <string name="location_container">Location Code/ Container Code</string>
+    <string name="condition">Condition</string>
+    <string name="inbound_qty">Qty(EA)</string>
+    <string name="sku_barcode">SKU Barcode</string>
+    <string name="sku_name">SKU Name</string>
+    <string name="inbound_is_piece_scan">Is Piece Scan</string>
+    <string name="asn_number_is_required">Asn Number Is Required</string>
+    <string name="sku_barcode_is_required">SKU Barcode Is Required</string>
+    <string name="nav_relocation">Relocation</string>
+    <string name="nav_relocation_by_boxid">Relocation By Box ID</string>
+    <string name="from_location">From Location</string>
+    <string name="to_location">To Location</string>
+    <string name="relocation_qty">Qty</string>
+    <string name="relocation_reason">Relocation Reason</string>
+    <string name="progress">Progress</string>
+    <string name="enable_relocation_qty">Enable Relocation Qty</string>
+    <string name="enable_put_away_qty">Enable Put Away Qty</string>
+    <string name="home">Home</string>
+    <string name="put_away">Put\nAway</string>
+    <string name="put_away_task">Put Away Task</string>
+    <string name="put_away_by_box_id">Put Away By Box ID</string>
+    <string name="handover">Handover</string>
+    <string name="confirm_handover">Confirm\nHandover</string>
+    <string name="inventory_check">Inventory\nCheck</string>
+    <string name="pick_wave">Pick Wave</string>
+    <string name="inventory">Inventory</string>
+    <string name="order">Order Query</string>
+    <string name="type">Type</string>
+    <string name="number">Number</string>
+    <string name="qty">Qty</string>
+    <string name="total_qty">Total Qty</string>
+    <string name="usable_qty">Usable Qty</string>
+    <string name="estimated_qty">Estimated Qty</string>
+    <string name="actual_qty">Actual Qty</string>
+    <string name="request_qty">Request Qty</string>
+    <string name="packed_qty">Packed Qty</string>
+    <string name="currency_scaned_qty">Currency Qty</string>
+    <string name="overcharge">Overcharge</string>
+    <string name="pick_wave_number">Pick Wave#</string>
+    <string name="client_name">Client Name</string>
+    <string name="temp_location">Temporary Location</string>
+    <string name="handover_by_tracking_number">Handover By Tracking Number</string>
+    <string name="logistics_provider_agent">Logistics Agent</string>
+    <string name="multiple_tracking_numbers">Multiple Tracking Numbers</string>
+    <string name="tracking_number_is_scaned">Tracking Number %s IS Scaned</string>
+    <string name="handover_number">Handover Number</string>
+    <string name="handover_total_pallet">Total Pallets</string>
+    <string name="handover_total_shipment_qty">Total Boxes Qty</string>
+    <string name="handover_total_weight">Total Weight</string>
+    <string name="is_confirm_handover">I hereby confirm the above information is correct.</string>
+    <string name="handover_number_is_required">Handover Number is required.</string>
+    <string name="take_down">Take Down</string>
+    <string name="picking">Picking</string>
+    <string name="confirm_picking">Confirm Picking</string>
+    <string name="take_down_success">Take Down Success</string>
+    <string name="picking_success">Picking Success</string>
+    <string name="pick_wave_list">#Pick Wave List</string>
+    <string name="pick_wave_order_qty">Order Qty</string>
+    <string name="sku_barcode_name">SKU Barcode\nSKU Name</string>
+    <string name="location_status">Location\nStock Status</string>
+    <string name="inventory_status">Status</string>
+    <string name="usable_total_qty">Usable Qty\nTotal Qty</string>
+    <string name="number_plate">Number Plate</string>
+    <string name="order_number">Order Number</string>
+    <string name="scan_order_number_to_assign_label">Scan order number to assign label</string>
+    <string name="button_clear">Clear</string>
+    <string name="button_complete_sorting">Complete Sorting</string>
+    <string name="complete_sorting_tips">Confirm sorting is completed and the order labels has been allocated</string>
+    <string name="operations">Operations</string>
+    <string name="asn_date">ASN Date</string>
+    <string name="cycle_count_code">Cycle Count Code</string>
+    <string name="cycle_count_status">Status</string>
+    <string name="cycle_count_target_qty">Target QTY</string>
+    <string name="cycle_count_scanned_qty">Scanned QTY</string>
+    <string name="cycle_count_inventory_qty">Inventory QTY</string>
+    <string name="cycle_count_bin_code">Bin Code</string>
+    <string name="inventory_check_scan">Counting Scan</string>
+    <string name="cycle_count_scan_by">Checker</string>
+    <string name="confirm_complete">Confirm complete</string>
+    <string name="complete_task_check_tips">Confirm Completion Of Counting?</string>
+    <string name="cycle_count_qty">Qty</string>
+    <string name="single_counting">Single Counting</string>
+    <string name="batch_counting">Batch Counting</string>
+    <string name="recounting">Recounting</string>
+    <string name="inbound_scan_detail">Inbound Scan Detail</string>
+    <string name="temporary_location">Temporary Location</string>
+
+    <!-- Inbound -->
+    <string name="scanned_histories">Scanned Histories</string>
+    <string name="scanned_qty">Scanned QTY</string>
+    <string name="view_more">View More</string>
+    <string name="scan_at">Scan At</string>
+    <string name="confirm_cancel">Confirm Cancel?</string>
+    <string name="serial_number">Serial Number</string>
+    <string name="udf_1">UDF 1</string>
+    <string name="generate_task">Generate Task</string>
+    <string name="is_fixed_udf1">Fixed UDF1</string>
+
+    <!-- ASN -->
+    <string name="view_detail">View Detail</string>
+    <string name="not_more_data">Not more data</string>
+
+    <!-- Pick Wave -->
+    <string name="pick_wave_picking">Picking</string>
+    <string name="picking_by_handing_unit">Picking(By HU#)</string>
+    <string name="second_sort">Second Sort</string>
+    <string name="boxid">Box ID</string>
+    <string name="zone">Zone</string>
+    <string name="skip">Skip</string>
+    <string name="skip_qty">Skip Qty</string>
+    <string name="take_down_qty">Take Down Qty</string>
+    <string name="confirm_skip">Confirm Skip</string>
+    <string name="handling_unit">HU#</string>
+    <string name="handling_unit_number">Handling Unit Number</string>
+    <string name="operated_at">Operated At</string>
+    <string name="skip_detail">Skip Details</string>
+    <string name="waiting_take_down_qty">Waiting Qty</string>
+
+    <!-- Put Away -->
+    <string name="container_number">Container Number</string>
+    <string name="put_away_task_status">Status</string>
+    <string name="created_at">Created At</string>
+    <string name="button_by_sku_put_away">By SKU</string>
+    <string name="button_by_container_put_away">By Container</string>
+
+    <!-- Error message -->
+    <string name="ans_number_is_required">Asn Number is required</string>
+
+    <!-- Start Order Query -->
+    <string name="order_client_name">Client Name: </string>
+    <string name="order_order_number">Order No.: </string>
+    <string name="order_tracking_number">TN#: </string>
+    <string name="order_ship_from">Ship From: </string>
+    <string name="order_ship_to">Ship To: </string>
+    <string name="order_wave_number">Wave No.: </string>
+    <string name="order_pallet_number">Pallet No.: </string>
+    <string name="order_handover_number">Handover No.: </string>
+    <string name="order_created_at">Created At: </string>
+    <string name="order_allocate_at">Allocate At: </string>
+    <string name="order_pack_at">Packed At: </string>
+    <string name="order_second_sort_at">Second Sort At: </string>
+    <string name="order_handover_at">Handover At: </string>
+    <!-- End Order Query -->
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/nav_warehouse">
+        <menu>
+            <item
+                android:id="@+id/nav_inbound"
+                android:icon="@drawable/ic_local_shipping_black_24dp"
+                android:title="@string/nav_inbound" />
+            <item
+                android:id="@+id/nav_relocation"
+                android:icon="@drawable/ic_local_shipping_black_24dp"
+                android:title="@string/nav_relocation" />
+        </menu>
+    </item>
+
+    <item android:title="@string/nav_system_setting">
+        <menu>
+            <item
+                android:id="@+id/nav_system_update"
+                android:icon="@drawable/ic_system_update_black_24dp"
+                android:title="@string/nav_system_update" />
+        </menu>
+    </item>
+
+</menu>

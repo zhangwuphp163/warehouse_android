@@ -1,0 +1,234 @@
+<resources>
+    <string name="app_name">仓管系统</string>
+
+    <string name="navigation_drawer_close">关闭选单</string>
+
+    <string name="hk_server">香港</string>
+    <string name="th_server">泰国</string>
+    <string name="sg_server">新加坡</string>
+    <string name="cn_server">虎门</string>
+    <string name="staging_server">测试</string>
+    <string name="dev_server">开发</string>
+    <string name="hk_ep_server">香港 EP</string>
+    <string name="my_server">马拉西亚</string>
+
+    <!-- Login -->
+    <string name="prompt_email">用户名称</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登入</string>
+    <string name="error_field_required">此栏位必填</string>
+    <string name="action_username_short">登入名称</string>
+    <string name="error_login_incorrect">登入名称或密码不正确</string>
+    <string name="error_missing_parameter">程式 API 参数不全</string>
+    <string name="error_username_not_exist">登入名称不存在</string>
+    <string name="error_password_incorrect">登入密码不正确</string>
+    <string name="account_not_bound_centre">账号未绑定仓库</string>
+    <string name="error_invalid_token">登入认证失效，请重新登入</string>
+    <string name="msg_connection_error">伺服器连线失败</string>
+    <string name="msg_unknown_error">未知的错误</string>
+
+    <!-- Main -->
+    <string name="action_settings">设定</string>
+    <string name="nav_logout">登出</string>
+
+    <string name="message_please_scan_item">请先扫描货件</string>
+    <string name="message_please_wait">请稍候…</string>
+    <string name="button_continue">继续</string>
+    <string name="button_submit">确定</string>
+    <string name="action_input_qty">输入数量</string>
+    <string name="action_input_weight">输入重量</string>
+    <string name="action_scan_barcode">扫描条码</string>
+    <string name="button_cancel">取消</string>
+    <string name="button_rescan">重扫</string>
+    <string name="button_confirm">确定</string>
+    <string name="button_receiving_complete">收货完成</string>
+    <string name="button_delete">删除</string>
+    <string name="button_confirm_overcharge">确认超收</string>
+    <string name="nav_system_setting">设定</string>
+    <string name="nav_system_update">系统更新</string>
+    <string name="message_internal_server_error">伺服器内部错误</string>
+    <string name="button_scan">扫描条码</string>
+    <string name="message_align_red_line_to_scan">请将红线对准条码进行扫描</string>
+    <string name="action_save">保存</string>
+    <string name="action_add_item">新增货件</string>
+    <string name="message_input_format_error">输入格式错误</string>
+    <string name="message_please_scan_barcode">请扫描条码</string>
+    <string name="message_please_add_item">请新增货件</string>
+    <string name="action_scan_from_camera">手机扫描</string>
+    <string name="message_invalid_barcode">不正确的条码</string>
+    <string name="message_barcode_scan_success">扫描成功，现在请新增货件</string>
+    <string name="message_please_grant_permission">请先开启位置权限</string>
+    <string name="button_camera">拍照</string>
+    <string name="message_please_wait_for_location">请等候位置定位</string>
+    <string name="label_location_gps">高精准度</string>
+    <string name="label_location_network">低精准度</string>
+    <string name="label_location_acquiring">正在取得</string>
+    <string name="label_location_gps_cache">高精准度 (快取)</string>
+    <string name="label_location_network_cache">低精准度 (快取)</string>
+    <string name="message_please_take_photo">请拍照</string>
+    <string name="label_location_failed">取得失败</string>
+    <string name="title_activity_take_photo">拍照签收</string>
+    <string name="title_activity_main">仓管系统</string>
+    <string name="nav_warehouse">仓库管理</string>
+    <string name="nav_consolidate">货件上架</string>
+    <string name="unique_number">统一编号</string>
+    <string name="bin_number">储存格编号</string>
+    <string name="consolidate_success">%s 已成功上架</string>
+    <string name="error_unique_number_not_exist">统一编号 %s 不存在</string>
+    <string name="error_unique_number_already_consolidated">统一编号 %s 已经上过架</string>
+    <string name="error_tracking_number_not_exist">追踪编号 %s 不存在</string>
+    <string name="error_tracking_number_already_consolidated">追踪编号 %s 已经上过架</string>
+    <string name="error_bin_number_not_exist">储存格 %s 不存在</string>
+    <string name="error_bin_number_not_empty">储存格 %s 不是空的</string>
+    <string name="error_bin_number_occupied">储存格 %s 已被其他货件占用</string>
+    <string name="nav_customer_return">入庫:顾客退货</string>
+    <string name="nav_failed_delivery">入庫:派送失败</string>
+    <string name="tracking_number">追踪号码</string>
+    <string name="error_user_no_centre_id">用户未有设定 centre_id</string>
+    <string name="navigation_drawer_open">打开选单</string>
+    <string name="nav_dispose_outbound">出庫:弃件扫瞄</string>
+    <string name="nav_return_seller_outbound">出庫:退回卖家扫瞄</string>
+    <string name="asn_number">ASN编号</string>
+    <string name="po_number">批次号</string>
+    <string name="location">货位</string>
+    <string name="location_container">货位编号 / 容器编号</string>
+    <string name="condition">商品状况</string>
+    <string name="inbound_qty">数量(EA)</string>
+    <string name="sku_barcode">商品条码</string>
+    <string name="sku_name">商品名称</string>
+    <string name="inbound_is_piece_scan">是否每个扫描</string>
+    <string name="asn_number_is_required">ASN编号是必须的</string>
+    <string name="nav_relocation">库存迁移</string>
+    <string name="nav_relocation_by_boxid">整箱库存迁移</string>
+    <string name="from_location">现存货位</string>
+    <string name="to_location">目标货位</string>
+    <string name="relocation_qty">数量</string>
+    <string name="relocation_reason">迁移原因</string>
+    <string name="progress">进度</string>
+    <string name="enable_relocation_qty">可移库数量</string>
+    <string name="enable_put_away_qty">可上架数量</string>
+    <string name="home">首页</string>
+    <string name="put_away">上架</string>
+    <string name="put_away_task">上架任务</string>
+    <string name="put_away_by_box_id">入库箱上架</string>
+    <string name="handover">移交</string>
+    <string name="confirm_handover">确认移交</string>
+    <string name="inventory_check">库存盘点</string>
+    <string name="pick_wave">波次列表</string>
+    <string name="inventory">库存查询</string>
+    <string name="order">订单查询</string>
+    <string name="nav_inbound">入库</string>
+    <string name="nav_inbound_by_sn">入库(序列号)</string>
+    <string name="type">类型</string>
+    <string name="number">编号</string>
+    <string name="qty">数量</string>
+    <string name="total_qty">总数量</string>
+    <string name="usable_qty">可用数量</string>
+    <string name="estimated_qty">预报数量</string>
+    <string name="actual_qty">实收数量</string>
+    <string name="currency_scaned_qty">当前扫描数量</string>
+    <string name="overcharge">超收</string>
+    <string name="pick_wave_number">波次号</string>
+    <string name="client_name">客户名</string>
+    <string name="temp_location">临时货位</string>
+    <string name="handover_by_tracking_number">扫描追踪号 \n（确认移交）</string>
+    <string name="logistics_provider_agent">物流分组</string>
+    <string name="multiple_tracking_numbers">扫描多个追踪号</string>
+    <string name="tracking_number_is_scaned">追踪号 %s 已经扫描</string>
+    <string name="handover_number">移交编号</string>
+    <string name="handover_total_pallet">总板数</string>
+    <string name="handover_total_shipment_qty">包裹总数</string>
+    <string name="handover_total_weight">总重量</string>
+    <string name="is_confirm_handover">我确认以上信息是正确的.</string>
+    <string name="handover_number_is_required">移交编号是必填的</string>
+    <string name="take_down">下架</string>
+    <string name="picking">拣货</string>
+    <string name="confirm_picking">确认拣货</string>
+    <string name="success">成功</string>
+    <string name="take_down_success">下架成功</string>
+    <string name="picking_success">拣货成功</string>
+    <string name="pick_wave_list">#波次列表</string>
+    <string name="pick_wave_order_qty">订单数量</string>
+    <string name="sku_barcode_name">商品条码\n商品名称</string>
+    <string name="location_status">货位\n库存状态</string>
+    <string name="inventory_status">状态</string>
+    <string name="usable_total_qty">可用数量\n总数量</string>
+    <string name="number_plate">分拣车牌号</string>
+    <string name="order_number">订单号</string>
+    <string name="scan_order_number_to_assign_label">* 扫描订单号分配条码面单</string>
+    <string name="button_clear">清除</string>
+    <string name="button_complete_sorting">分拣完成</string>
+    <string name="complete_sorting_tips">确认分拣完成并分配完所有订单的面单到对应格口？\n* 此操作会释放格口并完成分拣</string>
+    <string name="operations">操作</string>
+    <string name="cycle_count_code">盘点编码</string>
+    <string name="cycle_count_status">状态</string>
+    <string name="cycle_count_target_qty">目标数量</string>
+    <string name="cycle_count_scanned_qty">已扫描数量</string>
+    <string name="cycle_count_inventory_qty">库存数量</string>
+    <string name="cycle_count_bin_code">货位代码</string>
+    <string name="inventory_check_scan">盘点扫描</string>
+    <string name="cycle_count_scan_by">盘点人</string>
+    <string name="confirm_complete">确认完成</string>
+    <string name="complete_task_check_tips">确认完成盘点</string>
+    <string name="single_counting">逐条盘点</string>
+    <string name="batch_counting">批量盘点</string>
+    <string name="recounting">重新盘点</string>
+    <string name="inbound_scan_detail">扫描详情</string>
+    <string name="temporary_location">临时货位</string>
+
+    <!-- Inbound -->
+    <string name="scanned_histories">扫描记录</string>
+    <string name="scanned_qty">扫描数量</string>
+    <string name="view_more">查看更多...</string>
+    <string name="scan_at">扫描时间</string>
+    <string name="confirm_cancel">确认取消?</string>
+    <string name="serial_number">序列号</string>
+    <string name="udf_1">UDF 1</string>
+    <string name="generate_task">生成上架任务</string>
+
+    <!-- ASN -->
+    <string name="view_detail">查看详情</string>
+    <string name="not_more_data">没有更多数据了</string>
+
+    <!-- Pick Wave -->
+    <string name="pick_wave_picking">拣货</string>
+    <string name="picking_by_handing_unit">拣货（绑定箱子）</string>
+    <string name="second_sort">二次分拣</string>
+    <string name="boxid">箱号</string>
+    <string name="zone">仓库区域</string>
+    <string name="skip">库存缺失</string>
+    <string name="skip_qty">缺失数量</string>
+    <string name="confirm_skip">确认缺失</string>
+    <string name="take_down_qty">已下架数量</string>
+    <string name="handling_unit">HU#</string>
+    <string name="handling_unit_number">箱子编号</string>
+    <string name="operated_at">操作时间</string>
+    <string name="skip_detail">缺失详情</string>
+    <string name="waiting_take_down_qty">待下架数量</string>
+
+    <!-- Put Away -->
+    <string name="container_number">容器编号</string>
+    <string name="put_away_task_status">状态</string>
+    <string name="created_at">创建时间</string>
+    <string name="button_by_sku_put_away">按SKU上架</string>
+    <string name="button_by_container_put_away">按容器上架</string>
+
+    <!-- Menu -->
+    <string name="inbound_order_list">入库列表</string>
+
+    <!-- Start Order Query -->
+    <string name="order_client_name">客户名称：</string>
+    <string name="order_order_number">订单号：</string>
+    <string name="order_tracking_number">追踪号：</string>
+    <string name="order_ship_from">寄件信息：</string>
+    <string name="order_ship_to">收件信息：</string>
+    <string name="order_wave_number">波次号：</string>
+    <string name="order_pallet_number">托盘号：</string>
+    <string name="order_handover_number">移交：</string>
+    <string name="order_created_at">创建时间：</string>
+    <string name="order_allocate_at">分配时间： </string>
+    <string name="order_pack_at">打包时间： </string>
+    <string name="order_second_sort_at">二次分拣时间：</string>
+    <string name="order_handover_at">移交时间： </string>
+    <!-- End Order Query -->
+</resources>

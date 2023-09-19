@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/client_name"
+                tools:ignore="Suspicious0dp" />
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="4"
+                android:id="@+id/client_name"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:dropDownWidth="250dp"
+                android:hint="@string/client_name"
+                android:gravity="center_vertical"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="4"
+            android:orientation="horizontal">
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                >
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/editTextSkuBarcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/sku_barcode"
+                    android:inputType="text"
+                    tools:ignore="TextFields"
+                    />
+            </android.support.design.widget.TextInputLayout>
+            <ImageButton android:id="@+id/buttonScanSkuBarcode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/selector_scan"
+                android:background="@null"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:contentDescription="@string/button_scan"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ListView
+                android:id="@+id/asn_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="MissingClass"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+

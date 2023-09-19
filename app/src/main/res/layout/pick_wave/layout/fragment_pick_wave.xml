@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:textAlignment="textStart"
+            android:gravity="start">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/client_name"
+                tools:ignore="Suspicious0dp" />
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="2"
+                android:id="@+id/client_name"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:dropDownWidth="250dp"
+                android:hint="@string/client_name"
+                android:gravity="center_vertical"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="4">
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3">
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/editTextZoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/zone"
+                    android:inputType="text"
+                    tools:ignore="TextFields" />
+            </android.support.design.widget.TextInputLayout>
+            <ImageButton android:id="@+id/buttonScanZoneNumber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/selector_scan"
+                android:background="@null"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:contentDescription="@string/button_scan"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="4">
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3">
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/editTextPickWaveNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/pick_wave_number"
+                    android:inputType="text"
+                    tools:ignore="TextFields" />
+            </android.support.design.widget.TextInputLayout>
+            <ImageButton android:id="@+id/buttonScanPickWaveNumber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/selector_scan"
+                android:background="@null"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:contentDescription="@string/button_scan"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ListView
+                android:id="@+id/pick_wave_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="MissingClass"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/layoutButtons"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_alignParentBottom="true">-->
+<!--        <Button-->
+<!--            android:text="@string/button_confirm"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:id="@+id/buttonSubmit"-->
+<!--            android:background="@color/colorAccent"-->
+<!--            android:textColor="@color/buttonText"-->
+<!--            android:textSize="18sp" />-->
+
+<!--        <Button-->
+<!--            android:text="@string/button_cancel"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:id="@+id/buttonCancel"-->
+<!--            android:background="@color/colorPrimary"-->
+<!--            android:textColor="@color/buttonText"-->
+<!--            android:textSize="18sp" />-->
+<!--    </LinearLayout>-->
+</RelativeLayout>
+
