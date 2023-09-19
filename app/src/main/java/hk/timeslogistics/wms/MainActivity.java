@@ -40,6 +40,7 @@ import hk.timeslogistics.wms.fragments.put_away.PutAwayTaskFragment;
 import hk.timeslogistics.wms.fragments.relocation.RelocationByBoxIdFragment;
 import hk.timeslogistics.wms.fragments.relocation.RelocationFragment;
 import hk.timeslogistics.wms.fragments.pick_wave.SecondSortFragment;
+import hk.timeslogistics.wms.fragments.sku.SkuUpdateFragment;
 import hk.timeslogistics.wms.utils.CredentialManager;
 
 public class MainActivity extends AppCompatActivity {
@@ -65,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
     public static Fragment relocationByBoxIdFragment;
     public static Fragment putAwayTaskFragment;
     public static Fragment orderFragment;
+    public static Fragment skuUpdateFragment;
     public static ImageView soft;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -97,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
         relocationByBoxIdFragment = new RelocationByBoxIdFragment();
         putAwayTaskFragment = new PutAwayTaskFragment();
         orderFragment = new OrderFragment();
+        skuUpdateFragment = new SkuUpdateFragment();
         iconBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

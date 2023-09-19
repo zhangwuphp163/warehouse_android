@@ -132,6 +132,7 @@
     <string name="pick_wave">Pick Wave</string>
     <string name="inventory">Inventory</string>
     <string name="order">Order Query</string>
+    <string name="sku_update">SKU Update</string>
     <string name="type">Type</string>
     <string name="number">Number</string>
     <string name="qty">Qty</string>
@@ -229,6 +230,12 @@
     <string name="created_at">Created At</string>
     <string name="button_by_sku_put_away">By SKU</string>
     <string name="button_by_container_put_away">By Container</string>
+
+    <!-- SKU -->
+    <string name="sku_length">Length (CM)</string>
+    <string name="sku_width">Width (CM)</string>
+    <string name="sku_height">Height (CM)</string>
+    <string name="sku_weight">Weight (KG)</string>
 
     <!-- Error message -->
     <string name="ans_number_is_required">Asn Number is required</string>

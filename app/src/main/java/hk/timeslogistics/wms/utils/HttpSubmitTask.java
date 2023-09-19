@@ -2,6 +2,7 @@ package hk.timeslogistics.wms.utils;
 
 import android.content.Context;
 import android.os.AsyncTask;
+import android.util.Log;
 
 import com.google.gson.Gson;
 
@@ -9,7 +10,6 @@ import java.io.IOException;
 import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 
-import okhttp3.Callback;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.RequestBody;
@@ -78,4 +78,11 @@ public class HttpSubmitTask extends AsyncTask<Void,Void,RemoteResult> {
         submitTask = null;
     }
 
+    public HttpSubmitTask getSubmitTask() {
+        return submitTask;
+    }
+
+    public void setSubmitTask(HttpSubmitTask submitTask) {
+        this.submitTask = submitTask;
+    }
 }

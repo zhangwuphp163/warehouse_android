@@ -117,6 +117,7 @@
     <string name="pick_wave">波次列表</string>
     <string name="inventory">库存查询</string>
     <string name="order">订单查询</string>
+    <string name="sku_update">SKU 更新</string>
     <string name="nav_inbound">入库</string>
     <string name="nav_inbound_by_sn">入库(序列号)</string>
     <string name="type">类型</string>
@@ -212,6 +213,12 @@
     <string name="created_at">创建时间</string>
     <string name="button_by_sku_put_away">按SKU上架</string>
     <string name="button_by_container_put_away">按容器上架</string>
+
+    <!-- SKU -->
+    <string name="sku_length">长度 (CM)</string>
+    <string name="sku_width">宽度 (CM)</string>
+    <string name="sku_height">高度 (CM)</string>
+    <string name="sku_weight">重量 (KG)</string>
 
     <!-- Menu -->
     <string name="inbound_order_list">入库列表</string>

@@ -72,6 +72,7 @@ public class HomeFragment extends Fragment{
     private TextView textViewRelocationByBoxId;
     private TextView getTextViewPutAwayTask;
     private TextView getTextViewOrder;
+    private TextView textViewSkuUpdate;
     private Boolean is_click_update_btn = false;
 
 
@@ -104,6 +105,7 @@ public class HomeFragment extends Fragment{
         textViewInventoryCheck = (TextView) root.findViewById(R.id.textViewInventoryCheck);
         textViewHandlingUnit = (TextView) root.findViewById(R.id.textViewHandlingUnit);
         textViewRelocationByBoxId = (TextView) root.findViewById(R.id.textViewRelocationByBoxId);
+        textViewSkuUpdate = (TextView) root.findViewById(R.id.textViewSkuUpdate);
         getTextViewPutAwayTask = (TextView) root.findViewById(R.id.textViewPutAwayTask);
         getTextViewOrder = (TextView) root.findViewById(R.id.textViewOrder);
 
@@ -173,6 +175,13 @@ public class HomeFragment extends Fragment{
             @Override
             public void onClick(View v) {
                 switchFragment(MainActivity.inventoryFragment,getString(R.string.inventory));
+            }
+        });
+
+        textViewSkuUpdate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                switchFragment(MainActivity.skuUpdateFragment,getString(R.string.sku_update));
             }
         });
         textViewPickWave.setOnClickListener(new View.OnClickListener() {

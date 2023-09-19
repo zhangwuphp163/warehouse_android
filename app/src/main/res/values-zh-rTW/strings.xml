@@ -117,6 +117,7 @@
     <string name="pick_wave">波次列表</string>
     <string name="inventory">庫存查詢</string>
     <string name="order">訂單查詢</string>
+    <string name="sku_update">SKU 更新</string>
     <string name="nav_inbound">入庫</string>
     <string name="nav_inbound_by_sn">入庫(序列號)</string>
     <string name="type">類型</string>

@@ -7,8 +7,8 @@ android {
         minSdkVersion 15
         //noinspection ExpiredTargetSdkVersion
         targetSdkVersion 25
-        versionCode 10501
-        versionName "1.5.1"
+        versionCode 10502
+        versionName "1.5.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -30,6 +30,7 @@ android {
                     'src/main/res/layout/handover',
                     'src/main/res/layout/inbound',
                     'src/main/res/layout/order',
+                    'src/main/res/layout/sku',
                     'src/main/res/layout',
                     'src/main/res'
             ]
